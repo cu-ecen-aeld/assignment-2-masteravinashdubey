@@ -1,8 +1,36 @@
+# === Build artifacts ===
 *.o
+*.a
+*.out
+*.exe
 writer
-Test_*_Runner.c
 build/
 crosstool-ng
 aesd-build
-.vscode/
+
+# === Test and generated files ===
+Test_*_Runner.c
 test.sh.log
+
+# === Editor / IDE ===
+.vscode/
+
+# === Self-hosted GitHub Runner ===
+_work/
+bin/
+externals/
+svc.sh
+run.sh
+config.sh
+.runner
+.runner-token
+.credentials
+.credentials_rsaparams
+
+# === CMake / Autotest build ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+assignment-autotest/build/
+
