@@ -33,4 +33,5 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 assignment-autotest/build/
+actions-runner/
 
